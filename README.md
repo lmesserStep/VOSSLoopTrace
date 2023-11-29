@@ -31,3 +31,9 @@ The script will prompt you for input. You have two options:
 - This tool is intended for use by network professionals familiar with VOSS.
 - Ensure you have the necessary permissions to access and analyze network data.
 
+## Example Output: 
+      Do you want to (1) connect to the device or (2) read from a text file named 'loop'? Enter 1 or 2: 2
+      Possible loop detected on Port: TX-NNI, VLAN ID: 4
+      MACs associated with the loop: 00-15-5d-03-b5-82, 00-15-5d-6e-3d-c7, 00-15-5d-03-b5-a1, 00-15-5d-ab-0e-05, 00-15-5d-03-b5-a0, e4-db-ae-6f-a1-01, 00-15-5d-03-bc-01, 00-15-5d-03-c2-12, 00-15-5d-03-b5-60, 00-15-5d-03-b5-9c, 74-86-7a-d4-ce-fc, a0-42-3f-3d-ff-e7, 00-15-5d-6e-47-bd, 00-15-5d-6e-3d-ac, 00-15-5d-03-b5-       9f,    00-15-5d-03-c2-13, e4-54-e8-6a-d6-39
+      Possible loop detected on Port: TX-NNI, VLAN ID: 100
+      MACs associated with the loop: 1c-82-59-19-f8-42, d8-5e-d3-8e-63-b8, 1c-82-59-19-48-51, c0-25-a5-4e-82-d4, 1c-82-59-19-80-52, 1c-82-59-1a-7a-7c, 1c-82-59-1a-28-e3, 1c-82-59-1a-73-5b, e4-db-ae-6f-a1-02, 1c-82-59-19-cf-e9, 1c-82-59-1a-7b-50
