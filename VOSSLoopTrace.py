@@ -34,7 +34,7 @@ def detect_loop_from_output(trace_output):
             print(f"Possible loop detected on Port: {port}, VLAN ID: {vid}")
             print(f"MACs associated with the loop: {', '.join(macs)}")
 
-    # in the event we cannot determine if there is a loop from broadcast but have duplicate macs southbound (ingress
+    # In the event we cannot determine if there is a loop from broadcast but have duplicate macs southbound (ingress
     # vlan mapping or vid mismatch)
     for mac, ports in macs_to_ports.items():
         if len(ports) > 1:
